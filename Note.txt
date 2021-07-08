@@ -1,5 +1,5 @@
 The original link to this repository is : https://github.com/ANYbotics/grid_map
-But during catkin build of the original repository, some of the filter have an error since those files have been included as an header extension of .hpp,
+But during catkin build of the original repository, some of the filter files have an error since those files have been included as an header extension of .hpp,
 I have made the changes to all those files and replaced the header file extension from .hpp to .h, so instead of cloning the original repository, clone this one
 to avoid any catkin build issues, I have also added some .pcd files for pcd_to_pointcloud testing in the grid_map/grid_map_pcl/data directory. Before proceeding 
 do read the README file.
